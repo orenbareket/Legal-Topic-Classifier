@@ -1,0 +1,20 @@
+<!-- index.html -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Topic Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Legal Topic Classifier</h1>
+        <p>Enter your legal text below to predict the legal topic:</p>
+        <textarea id="inputText" rows="10" placeholder="Enter your legal text here..."></textarea>
+        <button onclick="predictTopic()">Predict Topic</button>
+        <div id="outputTopic"></div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
