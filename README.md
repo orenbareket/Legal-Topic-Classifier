@@ -79,8 +79,10 @@ Note that the result is based on machine learning algorithms and might not be 10
 Experimenting and Analyzing:
 
 Feel free to try different legal texts and explore the various predicted legal topics the app provides.
+
 Model
-If relevant, you can provide more information about the PLDA model used for classification. You can mention how it was trained, what data it was trained on, and any other relevant details about the model.
+
+The core component of the Legal Topic Classifier is the "plda_model.bin" file, which contains the pre-trained Probabilistic Latent Dirichlet Allocation (PLDA) model. This model is the result of extensive training on a diverse dataset of legal texts in Hebrew. By leveraging the power of natural language processing and machine learning, the model can accurately identify and categorize legal topics based on the input text.
 
 Dependencies
 Flask==2.0.1
@@ -90,7 +92,5 @@ License
 Include the license information for your project. Specify the type of license (e.g., MIT License, Apache License) and include a copy of the license in the repository.
 
 Contact
-feel free to reach me for anything at orenabareket123@gmail.com
+feel free to reach me at orenabareket123@gmail.com
 
-Acknowledgments
-If you have received help or used any resources in your project, you can acknowledge them in this section.
