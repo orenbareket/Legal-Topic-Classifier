@@ -99,13 +99,16 @@ Model
 The core component of the Legal Topic Classifier is the "plda_model.bin" file, which contains the pre-trained Probabilistic Latent Dirichlet Allocation (PLDA) model. This model is the result of extensive training on a diverse dataset of legal texts in Hebrew. By leveraging the power of natural language processing and machine learning, the model can accurately identify and categorize legal topics based on the input text.
 
 Dependencies
+
 Flask==2.0.1
 tomotopy==0.11.1
 numpy==1.19.5
 
 License
-Include the license information for your project. Specify the type of license (e.g., MIT License, Apache License) and include a copy of the license in the repository.
+
+This project is licensed under the MIT License
 
 Contact
+
 feel free to reach me at orenabareket123@gmail.com
 
