@@ -10,6 +10,8 @@ The Legal Topic Classifier web app provides both a web interface and an API endp
 
 Overall, this Legal Topic Classifier showcases the potential of machine learning and natural language processing in the legal domain. It demonstrates how this technology can efficiently organize and analyze legal text.
 
+Please note that the Legal Topic Classifier presented in this project is an experimental model and might not achieve 100% accuracy for all legal scenarios. While the classifier has been trained on a diverse dataset of Hebrew legal texts, it may still be considered a relatively lean model. With additional data and further refinement, the model's accuracy could potentially be improved. This classifier serves as a proof-of-concept, demonstrating the potential of utilizing machine learning and natural language processing in the legal domain. Researchers and developers are encouraged to explore the possibilities of enhancing the model's performance by leveraging more extensive and relevant data.
+
 Installation:
 
 To get started with the Legal Topic Classifier, follow these steps:
