@@ -1,4 +1,5 @@
 Legal Topic Classifier - Flask Web App
+
 Description
 app.py" is the main script of my web application, which serves as a Hebrew-based Legal Topic Classifier. The purpose of this application is to analyze input text written in Hebrew and determine its legal topic based on a pre-trained Probabilistic Latent Dirichlet Allocation (PLDA) model. The model has been trained on a large dataset of Hebrew legal texts and is capable of assigning topics to Hebrew text based on the most probable legal topic.
 
@@ -73,7 +74,6 @@ Include the license information for your project. Specify the type of license (e
 
 Contact
 feel free to reach me at orenabareket123@gmail.com
+
 Acknowledgments
 If you have received help or used any resources in your project, you can acknowledge them in this section.
-
-Remember that the README.md file is the first thing visitors see when they access your GitHub repository. Therefore, it's essential to provide clear and concise information about your project to make it easier for others to understand and use your work. You can also add additional sections or customize the content based on the specifics of your project.
