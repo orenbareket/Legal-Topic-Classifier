@@ -59,9 +59,26 @@ Open your web browser and go to http://localhost:5000 to interact with the Legal
 
 Note: The Legal Topic Classifier is intended for experimental purposes only and may require further refinement for production use.
 
-Usage
-Explain how to use the Legal Topic Classifier web app. Provide instructions on how to access the web app, how to input legal text, and how to get the predicted legal topic.
+Using the Web App:
 
+Once the app is running, you can access it through your web browser.
+
+Inputting Legal Text:
+
+In the provided text area, enter the legal text you want to analyze. It could be a legal contract, court document, or any other legal content.
+Getting the Predicted Legal Topic:
+
+After entering the legal text, click on the "Submit" button to analyze the input.
+The Legal Topic Classifier will process the text and predict the most relevant legal topic for the input.
+The predicted legal topic will be displayed on the web page.
+Interpreting the Result:
+
+The app will provide you with a predicted legal topic that best fits the input text.
+The result might include categories like "Contract Law," "Family Law," "Property Law," etc.
+Note that the result is based on machine learning algorithms and might not be 100% accurate, especially for complex legal scenarios.
+Experimenting and Analyzing:
+
+Feel free to try different legal texts and explore the various predicted legal topics the app provides.
 Model
 If relevant, you can provide more information about the PLDA model used for classification. You can mention how it was trained, what data it was trained on, and any other relevant details about the model.
 
@@ -73,7 +90,7 @@ License
 Include the license information for your project. Specify the type of license (e.g., MIT License, Apache License) and include a copy of the license in the repository.
 
 Contact
-feel free to reach me at orenabareket123@gmail.com
+feel free to reach me for anything at orenabareket123@gmail.com
 
 Acknowledgments
 If you have received help or used any resources in your project, you can acknowledge them in this section.
