@@ -57,7 +57,7 @@ Access the Application:
 
 Open your web browser and go to http://localhost:5000 to interact with the Legal Topic Classifier.
 
-Note: The Legal Topic Classifier is intended for experimental purposes only and may require further refinement for production use.
+Note: The Legal Topic Classifier is intended for experimental purposes only.
 
 Using the Web App:
 
@@ -78,7 +78,21 @@ The result might include categories like "Contract Law," "Family Law," "Property
 Note that the result is based on machine learning algorithms and might not be 100% accurate, especially for complex legal scenarios.
 Experimenting and Analyzing:
 
-Feel free to try different legal texts and explore the various predicted legal topics the app provides.
+Feel free to try different legal texts and explore the various predicted legal topics the app provides. 
+please note that : 
+
+The Legal Topic Classifier model used in this experiment is trained to predict the following legal topics:
+
+Inheritance Rights
+Renting
+Marriage and Divorce
+Harassment
+Discrimination
+Defamation
+Medical Malpractice
+Privacy
+Child Support
+Feel free to input the legal text related to any of these topics and explore the model's predictions. Note that this is an experimental model and may not cover all possible legal scenarios accurately.
 
 Model
 
@@ -88,6 +102,7 @@ Dependencies
 Flask==2.0.1
 tomotopy==0.11.1
 numpy==1.19.5
+
 License
 Include the license information for your project. Specify the type of license (e.g., MIT License, Apache License) and include a copy of the license in the repository.
 
