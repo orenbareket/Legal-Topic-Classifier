@@ -56,7 +56,7 @@ Access the Application:
 
 Open your web browser and go to http://localhost:5000 to interact with the Legal Topic Classifier.
 
-Note: The Legal Topic Classifier is intended for experimental purposes only and may require further refinement for production use
+Note: The Legal Topic Classifier is intended for experimental purposes only and may require further refinement for production use.
 
 Usage
 Explain how to use the Legal Topic Classifier web app. Provide instructions on how to access the web app, how to input legal text, and how to get the predicted legal topic.
@@ -65,14 +65,14 @@ Model
 If relevant, you can provide more information about the PLDA model used for classification. You can mention how it was trained, what data it was trained on, and any other relevant details about the model.
 
 Dependencies
-List the dependencies required for your Flask app to run. For example, Flask, tomotopy, and any other Python packages you are using.
-
+Flask==2.0.1
+tomotopy==0.11.1
+numpy==1.19.5
 License
 Include the license information for your project. Specify the type of license (e.g., MIT License, Apache License) and include a copy of the license in the repository.
 
 Contact
-Provide a contact email or any other means of communication where users or contributors can reach out to you for questions or feedback.
-
+feel free to reach me at orenabareket123@gmail.com
 Acknowledgments
 If you have received help or used any resources in your project, you can acknowledge them in this section.
 
