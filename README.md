@@ -16,34 +16,34 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/legal-topic-classifier.git
+"git clone https://github.com/your-username/legal-topic-classifier.git"
 Replace "your-username" with your actual GitHub username.
 
 Navigate to the Project Directory:
 
 bash
 Copy code
-cd legal-topic-classifier
+"cd legal-topic-classifier"
 Create and Activate Virtual Environment (Optional but Recommended):
 
 bash
 Copy code
-python -m venv venv
+"python -m venv venv"
 On Windows:
 
 bash
 Copy code
-venv\Scripts\activate
+"venv\Scripts\activate"
 On macOS and Linux:
 
 bash
 Copy code
-source venv/bin/activate
+"source venv/bin/activate"
 Install Required Dependencies:
 
 bash
 Copy code
-pip install -r requirements.txt
+"pip install -r requirements.txt"
 Load Pre-trained Model:
 
 Before running the application, make sure to place the "plda_model.bin" file in the project directory.
@@ -52,7 +52,7 @@ Run the Application:
 
 bash
 Copy code
-python app.py
+"python app.py"
 Access the Application:
 
 Open your web browser and go to http://localhost:5000 to interact with the Legal Topic Classifier.
@@ -65,7 +65,7 @@ Once the app is running, you can access it through your web browser.
 
 Inputting Legal Text:
 
-In the provided text area, enter the legal text you want to analyze. It could be a legal contract, court document, or any other legal content.
+In the designated text area, input any day-to-day real-life scenario that involves legal issues which you wish to analyze.
 Getting the Predicted Legal Topic:
 
 After entering the legal text, click on the "Submit" button to analyze the input.
