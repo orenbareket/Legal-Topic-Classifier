@@ -1,3 +1,3 @@
 numpy>=1.25
-tomotopy>=0.12.4
+tomotopy>=0.12.5
 streamlit>=0.90  # Adjust version as needed
