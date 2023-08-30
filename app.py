@@ -1,7 +1,10 @@
 import streamlit as st
-import tomotopy as tp
 import re
 import numpy as np
+
+print("Before importing tomotopy...")
+import tomotopy as tp
+print("After importing tomotopy...")
 
 # Load the pre-trained PLDA model
 plda = tp.PLDAModel.load('./plda_model.bin')
