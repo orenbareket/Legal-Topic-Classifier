@@ -7,7 +7,7 @@ import tomotopy as tp
 print("After importing tomotopy...")
 
 # Load the pre-trained PLDA model
-plda = tp.PLDAModel.load('/path/to/plda_model.bin')
+plda = tp.PLDAModel.load('./plda_model.bin')
 
 def get_topic(text):
     clean_txt = re.sub(r'[\W\d]+', ' ', text)
