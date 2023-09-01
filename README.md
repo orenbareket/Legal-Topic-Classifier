@@ -2,7 +2,7 @@
 
 **Description:**
 
-"app.py" is the main script of this web application, serving as a Hebrew-based Legal Topic Classifier. This application aims to analyze input text written in **Hebrew** and determine its legal topic using a pre-trained Probabilistic Latent Dirichlet Allocation (PLDA) model. The model has undergone training on an extensive dataset of Hebrew legal texts, enabling it to assign topics to Hebrew text based on the most probable legal topic.
+"app.py" is the main script of this web application, serving as a Hebrew-based Legal Topic Classifier. This application aims to analyze input text written in **Hebrew** and determine its legal topic using a pre-trained Probabilistic Latent Dirichlet Allocation (PLDA) model. The model has undergone training on an extensive dataset of Hebrew legal texts, enabling it to assign topics to Hebrew texts based on the most probable legal topic.
 
 **Transition to Streamlit:**
 
@@ -12,7 +12,19 @@ in order to set out a simple UI for inration purposes with the legal classifier 
 
 To get started with the Legal Topic Classifier please go to https://legal-topic-classifier.streamlit.app/. 
 
-**Note:** The Legal Topic Classifier is intended for experimental purposes only.
+**Dependencies:**
+
+streamlit==1.26.0
+tomotopy==0.12.5
+numpy==1.24.4
+
+**Experimenting and Analyzing:**
+
+Feel free to try different legal texts and explore the various predicted legal topics the app provides. Please note that the Legal Topic Classifier model used in this experiment is trained to predict the following legal topics:
+
+Inheritance Rights Renting ("שכירות") Marriage and Divorce ("נישואין וגירושין") nuisances ("מטרדים") Discrimination ("אפליה") Defamation ("לשון הרע") Medical Malpractice ("רשלנות רפואית") Privacy ("פרטיות") Child Support ("מזונות ילדים") 
+
+**Note:** Feel free to input legal text related to any of these topics and explore the model's predictions. Note that this is an experimental model and may not cover all possible legal scenarios accurately and is intended for experimental purposes only. 
 
 **Contact:**
 
